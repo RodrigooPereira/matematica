@@ -22,9 +22,12 @@ function verificar() {
         let raizDelta = Math.sqrt(delta);
         let res1 = (b + raizDelta) / (2 * Number(a.value));
         let res2 = (b - raizDelta) / (2 * Number(a.value));
+        let vertice_x = b / (2 * Number(a.value));
+        let vertice_y = (delta * -1) / (4 * Number(a.value))
 
         document.getElementById('resultado1').innerHTML = `x = ${res1}`;
-        document.getElementById('resultado2').innerHTML = `x = ${res2}`;  
+        document.getElementById('resultado2').innerHTML = `x = ${res2}`;
+        document.getElementById('vertice').innerHTML = `Vértice = ${vertice_x},${vertice_y}`;    
         
         erro.style.display = 'none';
         resultado1.style.display = 'block';

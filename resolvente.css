@@ -29,12 +29,21 @@ form label {
     margin: auto;
 }
 
+.resultados-box {
+    display: flex;
+    justify-content: center;
+}
+
 .resultados {
+    border: solid 2px black;
+    width: fit-content;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     gap: 5px;
     text-align: center;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 p#erro {
