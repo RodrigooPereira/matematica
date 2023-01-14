@@ -3,6 +3,7 @@ function verificar() {
     let a = document.getElementById("num1");
     let b = document.getElementById("num2");
     let c = document.getElementById("num3");
+    resultados_box.style.visibility = 'visible';
 
     let delta = Number(b.value**2) - 4 * Number(a.value) * Number(c.value);
     console.log(delta); 

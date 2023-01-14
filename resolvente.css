@@ -29,7 +29,8 @@ form label {
     margin: auto;
 }
 
-.resultados-box {
+div#resultados_box {
+    visibility: hidden;
     display: flex;
     justify-content: center;
 }
